@@ -86,18 +86,35 @@ def generate_messages(file_path: pathlib.Path):
                 logger.info(f"Reading data from file: {DATA_FILE}")
 
                 csv_reader = csv.DictReader(csv_file)
-                for row in csv_reader:
+                for entry in csv_reader:
                     # Ensure required fields are present
-                    if "temperature" not in row:
-                        logger.error(f"Missing 'temperature' column in row: {row}")
-                        continue
-
-                    # Generate a timestamp and prepare the message
-                    current_timestamp = datetime.utcnow().isoformat()
+                    delivery_status = entry.get("delivery_status", "inactive")
+                    order_status = entry.get("order_status", "N/A")
+                    order_id = entry.get("order_id", "N/A")
+                    
+                     # Prepare the message structure with the custom fields
                     message = {
-                        "timestamp": current_timestamp,
-                        "temperature": float(row["temperature"]),
+                        "timestamp": datetime.utcnow().isoformat(),
+                        "delivery_status": delivery_status,
+                        "order_status": order_status,
+                        "order_id": order_id,
                     }
+
+                    # Added custom logic for temperature-related messages
+                    if order_status == "Processing":
+                        message["status_message"] = "Processing."
+                    else:
+                        message["status_message"] = "Delivered."
+
+
+                    # Logic to add temperature status messages
+                    #if items > 5:
+                        #message["shipping_method"] = "Express shipping!"
+                    #elif items > 5:
+                        #message["shipping_method"] = "Shipping is free!"
+                    #else:
+                        #message["shipping_method"] = "Standard shipping."
+                    
                     logger.debug(f"Generated message: {message}")
                     yield message
         except FileNotFoundError:

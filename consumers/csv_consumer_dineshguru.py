@@ -1,3 +1,12 @@
+"""
+csv_consumer_case.py
+
+Consume json messages from a Kafka topic and process them.
+
+Example Kafka message format:
+{"timestamp": "2025-01-11T18:15:00Z", "temperature": 225.0}
+
+"""
 
 #####################################
 # Import Modules
