@@ -5486,3 +5486,102 @@
 2025-01-30 20:24:52.009 | INFO     | __main__:process_message:95 - Message received from author: Alice
 2025-01-30 20:24:52.009 | INFO     | __main__:process_message:101 - Updated author counts: {'Charlie': 137, 'Eve': 154, 'Alice': 219, 'Diana': 244, 'Bob': 153}
 2025-01-30 20:24:53.005 | INFO     | __main__:main:170 - Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana'}
+2025-01-30 20:50:20.431 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-30 20:50:20.447 | INFO     | __main__:<module>:56 - Project root: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru
+2025-01-30 20:50:20.448 | INFO     | __main__:<module>:60 - Data folder: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data
+2025-01-30 20:50:20.448 | INFO     | __main__:<module>:64 - Data file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:50:20.448 | INFO     | __main__:main:124 - START producer.
+2025-01-30 20:50:20.448 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-30 20:50:20.457 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-30 20:50:20.457 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-30 20:50:20.788 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'BRKjdD-1SEyRVIA8KcDB8w', 'controller_id': 1001}
+2025-01-30 20:50:20.789 | INFO     | __main__:get_kafka_topic:38 - Kafka topic: buzzline_json
+2025-01-30 20:50:20.789 | INFO     | __main__:get_message_interval:45 - Message interval: 1 seconds
+2025-01-30 20:50:20.790 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-30 20:50:20.791 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-30 20:50:20.901 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-30 20:50:20.901 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-30 20:50:21.226 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'buzzline_json' already exists. Clearing it out...
+2025-01-30 20:50:21.226 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-30 20:50:21.567 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'buzzline_json': list indices must be integers or slices, not ConfigResource
+2025-01-30 20:50:21.568 | INFO     | __main__:main:147 - Kafka topic 'buzzline_json' is ready.
+2025-01-30 20:50:21.568 | INFO     | __main__:main:153 - Starting message production to topic 'buzzline_json'...
+2025-01-30 20:50:21.568 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:50:21.570 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:50:21.571 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:50:22.574 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:50:23.578 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:50:24.582 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:50:25.586 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:50:26.590 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:50:27.596 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:50:28.601 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:50:29.604 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:50:30.608 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:50:31.609 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:50:31.611 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:50:31.614 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:50:32.617 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:50:33.621 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:50:34.624 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:50:35.627 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:50:36.630 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:50:37.634 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:50:38.637 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:50:39.641 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:50:40.644 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:50:41.645 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:50:41.646 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:50:41.649 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:50:42.651 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:50:43.653 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:50:44.655 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:50:45.657 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:50:46.662 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:50:47.667 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:50:48.671 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:50:49.673 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:50:50.675 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:50:51.676 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:50:51.676 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:50:51.678 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:50:52.679 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:50:53.685 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:50:54.687 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:50:55.691 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:50:56.696 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:50:57.699 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:50:58.703 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:50:59.706 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:51:00.710 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:51:01.712 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:51:01.713 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:51:01.714 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:51:02.715 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:51:03.718 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:51:04.721 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:51:05.722 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:51:06.726 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:51:07.730 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:51:08.735 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:51:09.740 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:51:10.744 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:51:11.747 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:51:11.747 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:51:11.748 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:51:12.752 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:51:13.757 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:51:14.761 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:51:15.766 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:51:16.769 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:51:17.775 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:51:18.779 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:51:19.782 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:51:20.787 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:51:21.791 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:51:21.792 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:51:21.794 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:51:22.796 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:51:23.803 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:51:24.807 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:51:25.811 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
