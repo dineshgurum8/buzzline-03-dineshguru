@@ -5749,3 +5749,1231 @@
 2025-01-30 20:53:42.272 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
 2025-01-30 20:53:42.272 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
 2025-01-30 20:53:42.273 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:53:43.276 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:53:44.277 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:53:45.279 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:53:46.281 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:53:47.282 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:53:48.284 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:53:49.287 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:53:50.288 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:53:51.289 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:53:52.290 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:53:52.291 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:53:52.292 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:53:53.294 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:53:54.296 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:53:55.299 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:53:56.302 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:53:57.305 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:53:58.306 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:53:59.307 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:00.309 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:01.313 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:02.315 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:54:02.316 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:54:02.318 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:03.321 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:04.325 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:05.329 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:06.332 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:07.336 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:08.339 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:09.342 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:10.345 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:11.352 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:12.354 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:54:12.355 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:54:12.358 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:13.361 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:14.366 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:15.370 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:16.374 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:17.376 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:18.379 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:19.385 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:19.986 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-30 20:54:19.989 | INFO     | __main__:main:109 - START consumer.
+2025-01-30 20:54:19.990 | INFO     | __main__:get_kafka_topic:31 - Kafka topic: buzzline_json
+2025-01-30 20:54:19.990 | INFO     | __main__:get_kafka_consumer_group_id:38 - Kafka consumer group id: buzz_group
+2025-01-30 20:54:19.990 | INFO     | __main__:main:114 - Consumer: Topic 'buzzline_json' and group 'buzz_group'...
+2025-01-30 20:54:19.990 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-30 20:54:19.991 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline_json' and group ID='buzz_group'.
+2025-01-30 20:54:20.107 | INFO     | utils.utils_consumer:create_kafka_consumer:59 - Kafka consumer created successfully.
+2025-01-30 20:54:20.108 | INFO     | __main__:main:120 - Polling messages from topic 'buzzline_json'...
+2025-01-30 20:54:20.344 | INFO     | __main__:process_message:74 - Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-01-30 20:54:20.344 | INFO     | __main__:process_message:80 - Message received from author: Alice
+2025-01-30 20:54:20.344 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 1}
+2025-01-30 20:54:20.345 | INFO     | __main__:process_message:74 - Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-01-30 20:54:20.345 | INFO     | __main__:process_message:80 - Message received from author: Diana
+2025-01-30 20:54:20.345 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 1, 'Diana': 1}
+2025-01-30 20:54:20.346 | INFO     | __main__:process_message:74 - Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Alice'}
+2025-01-30 20:54:20.346 | INFO     | __main__:process_message:80 - Message received from author: Alice
+2025-01-30 20:54:20.346 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 1}
+2025-01-30 20:54:20.346 | INFO     | __main__:process_message:74 - Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Diana'}
+2025-01-30 20:54:20.347 | INFO     | __main__:process_message:80 - Message received from author: Diana
+2025-01-30 20:54:20.347 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2}
+2025-01-30 20:54:20.347 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.347 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.348 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 1}
+2025-01-30 20:54:20.348 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.348 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.349 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 2}
+2025-01-30 20:54:20.349 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.350 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.350 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 3}
+2025-01-30 20:54:20.350 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.351 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.351 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 4}
+2025-01-30 20:54:20.352 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.352 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.352 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 5}
+2025-01-30 20:54:20.353 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.353 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.353 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 6}
+2025-01-30 20:54:20.354 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.354 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.354 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 7}
+2025-01-30 20:54:20.355 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.355 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.355 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 8}
+2025-01-30 20:54:20.356 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.356 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.356 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 9}
+2025-01-30 20:54:20.357 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.357 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.358 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 10}
+2025-01-30 20:54:20.358 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.358 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.358 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 11}
+2025-01-30 20:54:20.359 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.359 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.360 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 12}
+2025-01-30 20:54:20.360 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.360 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.361 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 13}
+2025-01-30 20:54:20.361 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.361 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.361 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 14}
+2025-01-30 20:54:20.362 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.362 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.362 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 15}
+2025-01-30 20:54:20.362 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.362 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.363 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 16}
+2025-01-30 20:54:20.363 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.363 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.363 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 17}
+2025-01-30 20:54:20.364 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.364 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.364 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 18}
+2025-01-30 20:54:20.365 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.365 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.366 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 19}
+2025-01-30 20:54:20.366 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.366 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.367 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 20}
+2025-01-30 20:54:20.367 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.368 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.368 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 21}
+2025-01-30 20:54:20.368 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.369 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.369 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 22}
+2025-01-30 20:54:20.369 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.371 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.371 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 23}
+2025-01-30 20:54:20.371 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.372 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.372 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 24}
+2025-01-30 20:54:20.373 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.373 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.373 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 25}
+2025-01-30 20:54:20.374 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.374 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.374 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 26}
+2025-01-30 20:54:20.375 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.375 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.375 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 27}
+2025-01-30 20:54:20.375 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.376 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.376 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 28}
+2025-01-30 20:54:20.376 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.376 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.376 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 29}
+2025-01-30 20:54:20.377 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.377 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.377 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 30}
+2025-01-30 20:54:20.377 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.378 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.378 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 31}
+2025-01-30 20:54:20.378 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.378 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.379 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 32}
+2025-01-30 20:54:20.379 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.379 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.380 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 33}
+2025-01-30 20:54:20.380 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.380 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.380 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 34}
+2025-01-30 20:54:20.381 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.381 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.381 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 35}
+2025-01-30 20:54:20.382 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.382 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.382 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 36}
+2025-01-30 20:54:20.383 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.383 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.383 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 37}
+2025-01-30 20:54:20.384 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.384 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.384 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 38}
+2025-01-30 20:54:20.385 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.385 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.386 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 39}
+2025-01-30 20:54:20.386 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.387 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.387 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 40}
+2025-01-30 20:54:20.387 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.388 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.388 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.388 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 41}
+2025-01-30 20:54:20.389 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.389 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.390 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 42}
+2025-01-30 20:54:20.390 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.391 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.391 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 43}
+2025-01-30 20:54:20.391 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.392 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.392 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 44}
+2025-01-30 20:54:20.392 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.392 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.393 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 45}
+2025-01-30 20:54:20.393 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.393 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.393 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 46}
+2025-01-30 20:54:20.394 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.394 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.394 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 47}
+2025-01-30 20:54:20.395 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.395 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.395 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 48}
+2025-01-30 20:54:20.396 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.396 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.396 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 49}
+2025-01-30 20:54:20.396 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.397 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.397 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 50}
+2025-01-30 20:54:20.397 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.397 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.398 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 51}
+2025-01-30 20:54:20.398 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.399 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.399 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 52}
+2025-01-30 20:54:20.399 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.400 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.400 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 53}
+2025-01-30 20:54:20.400 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.400 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.401 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 54}
+2025-01-30 20:54:20.401 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.401 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.402 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 55}
+2025-01-30 20:54:20.402 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.402 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.402 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 56}
+2025-01-30 20:54:20.403 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.403 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.404 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 57}
+2025-01-30 20:54:20.404 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.405 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.405 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 58}
+2025-01-30 20:54:20.406 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.406 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.406 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 59}
+2025-01-30 20:54:20.407 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.407 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.407 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 60}
+2025-01-30 20:54:20.407 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.408 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.408 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 61}
+2025-01-30 20:54:20.408 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.408 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.409 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 62}
+2025-01-30 20:54:20.409 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.409 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.410 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 63}
+2025-01-30 20:54:20.410 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.410 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.410 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 64}
+2025-01-30 20:54:20.411 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.411 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.411 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 65}
+2025-01-30 20:54:20.412 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.412 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.412 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 66}
+2025-01-30 20:54:20.412 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.412 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.412 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 67}
+2025-01-30 20:54:20.413 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.413 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.413 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 68}
+2025-01-30 20:54:20.414 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.414 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.414 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 69}
+2025-01-30 20:54:20.415 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.415 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.415 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 70}
+2025-01-30 20:54:20.416 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.416 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.416 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 71}
+2025-01-30 20:54:20.417 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.417 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.417 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 72}
+2025-01-30 20:54:20.418 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.418 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.418 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 73}
+2025-01-30 20:54:20.419 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.419 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.420 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 74}
+2025-01-30 20:54:20.421 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.421 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.421 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 75}
+2025-01-30 20:54:20.422 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.422 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.422 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 76}
+2025-01-30 20:54:20.422 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.422 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.422 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 77}
+2025-01-30 20:54:20.423 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.423 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.423 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 78}
+2025-01-30 20:54:20.424 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.424 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.424 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 79}
+2025-01-30 20:54:20.425 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.425 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.425 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 80}
+2025-01-30 20:54:20.426 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.426 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.426 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 81}
+2025-01-30 20:54:20.427 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.427 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.427 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 82}
+2025-01-30 20:54:20.427 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.428 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.428 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 83}
+2025-01-30 20:54:20.428 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.428 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.428 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 84}
+2025-01-30 20:54:20.429 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.429 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.430 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 85}
+2025-01-30 20:54:20.430 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.431 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.431 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 86}
+2025-01-30 20:54:20.432 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.432 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.432 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 87}
+2025-01-30 20:54:20.433 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.433 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.433 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 88}
+2025-01-30 20:54:20.434 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.434 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.434 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 89}
+2025-01-30 20:54:20.435 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.435 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.435 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 90}
+2025-01-30 20:54:20.436 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.436 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.436 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 91}
+2025-01-30 20:54:20.436 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.437 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.437 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 92}
+2025-01-30 20:54:20.437 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.437 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.437 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 93}
+2025-01-30 20:54:20.438 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.438 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.438 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 94}
+2025-01-30 20:54:20.439 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.439 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.439 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 95}
+2025-01-30 20:54:20.440 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.440 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.440 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 96}
+2025-01-30 20:54:20.440 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.441 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.441 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 97}
+2025-01-30 20:54:20.441 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.441 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.441 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 98}
+2025-01-30 20:54:20.442 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.442 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.442 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 99}
+2025-01-30 20:54:20.442 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.442 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.443 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 100}
+2025-01-30 20:54:20.443 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.443 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.443 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 101}
+2025-01-30 20:54:20.444 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.444 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.444 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 102}
+2025-01-30 20:54:20.445 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.445 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.445 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 103}
+2025-01-30 20:54:20.445 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.446 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.446 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 104}
+2025-01-30 20:54:20.447 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.447 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.447 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 105}
+2025-01-30 20:54:20.448 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.448 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.448 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 106}
+2025-01-30 20:54:20.449 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.449 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.449 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 107}
+2025-01-30 20:54:20.450 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.450 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.450 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 108}
+2025-01-30 20:54:20.451 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.451 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.451 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 109}
+2025-01-30 20:54:20.452 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.452 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.452 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 110}
+2025-01-30 20:54:20.452 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.453 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.453 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 111}
+2025-01-30 20:54:20.453 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.453 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.453 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 112}
+2025-01-30 20:54:20.454 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.454 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.454 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 113}
+2025-01-30 20:54:20.455 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.455 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.455 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 114}
+2025-01-30 20:54:20.456 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.456 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.456 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 115}
+2025-01-30 20:54:20.457 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.457 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.457 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 116}
+2025-01-30 20:54:20.457 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.457 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.457 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 117}
+2025-01-30 20:54:20.458 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.458 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.458 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 118}
+2025-01-30 20:54:20.459 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.459 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.459 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 119}
+2025-01-30 20:54:20.459 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.460 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.460 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 120}
+2025-01-30 20:54:20.460 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.460 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.461 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 121}
+2025-01-30 20:54:20.461 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.461 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.461 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 122}
+2025-01-30 20:54:20.462 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.462 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.463 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 123}
+2025-01-30 20:54:20.463 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.463 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.464 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 124}
+2025-01-30 20:54:20.465 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.465 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.465 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 125}
+2025-01-30 20:54:20.466 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.466 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.466 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 126}
+2025-01-30 20:54:20.467 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.467 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.467 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 127}
+2025-01-30 20:54:20.468 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.468 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.468 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 128}
+2025-01-30 20:54:20.469 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.469 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.469 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 129}
+2025-01-30 20:54:20.470 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.470 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.470 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 130}
+2025-01-30 20:54:20.470 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.471 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.471 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 131}
+2025-01-30 20:54:20.471 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.471 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.471 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 132}
+2025-01-30 20:54:20.472 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.472 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.472 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 133}
+2025-01-30 20:54:20.472 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.473 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.473 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 134}
+2025-01-30 20:54:20.473 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.473 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.474 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 135}
+2025-01-30 20:54:20.474 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.474 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.475 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 136}
+2025-01-30 20:54:20.475 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.475 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.475 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 137}
+2025-01-30 20:54:20.476 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.476 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.476 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 138}
+2025-01-30 20:54:20.476 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.476 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.477 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 139}
+2025-01-30 20:54:20.477 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.477 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.477 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 140}
+2025-01-30 20:54:20.478 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.478 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.479 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 141}
+2025-01-30 20:54:20.479 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.479 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.479 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 142}
+2025-01-30 20:54:20.480 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.480 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.480 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 143}
+2025-01-30 20:54:20.481 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.481 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.482 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 144}
+2025-01-30 20:54:20.482 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.483 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.483 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 145}
+2025-01-30 20:54:20.483 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.484 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.484 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 146}
+2025-01-30 20:54:20.484 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.485 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.485 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 147}
+2025-01-30 20:54:20.485 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.485 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.486 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 148}
+2025-01-30 20:54:20.486 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.486 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.486 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 149}
+2025-01-30 20:54:20.487 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.487 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.487 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 150}
+2025-01-30 20:54:20.487 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.487 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.487 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 151}
+2025-01-30 20:54:20.488 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.488 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.488 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 152}
+2025-01-30 20:54:20.489 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.489 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.489 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 153}
+2025-01-30 20:54:20.489 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.490 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.490 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 154}
+2025-01-30 20:54:20.490 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.490 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.490 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 155}
+2025-01-30 20:54:20.491 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.491 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.491 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 156}
+2025-01-30 20:54:20.492 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.492 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.492 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 157}
+2025-01-30 20:54:20.492 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.492 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.492 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 158}
+2025-01-30 20:54:20.493 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.493 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.493 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 159}
+2025-01-30 20:54:20.494 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.494 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.494 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 160}
+2025-01-30 20:54:20.495 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.495 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.495 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 161}
+2025-01-30 20:54:20.496 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.496 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.496 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 162}
+2025-01-30 20:54:20.497 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.497 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.497 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 163}
+2025-01-30 20:54:20.498 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.498 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.498 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 164}
+2025-01-30 20:54:20.499 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.499 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.499 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 165}
+2025-01-30 20:54:20.500 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.500 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.500 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 166}
+2025-01-30 20:54:20.501 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.501 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.501 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 167}
+2025-01-30 20:54:20.501 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.502 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.502 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 168}
+2025-01-30 20:54:20.502 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.502 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.502 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 169}
+2025-01-30 20:54:20.503 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.503 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.503 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 170}
+2025-01-30 20:54:20.503 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.504 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.504 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 171}
+2025-01-30 20:54:20.504 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.505 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.505 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 172}
+2025-01-30 20:54:20.505 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.505 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.505 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 173}
+2025-01-30 20:54:20.506 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.506 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.506 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 174}
+2025-01-30 20:54:20.507 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.507 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.507 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 175}
+2025-01-30 20:54:20.507 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.507 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.507 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 176}
+2025-01-30 20:54:20.508 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.508 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.508 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 177}
+2025-01-30 20:54:20.509 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.509 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.509 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 178}
+2025-01-30 20:54:20.510 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.510 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.510 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 179}
+2025-01-30 20:54:20.511 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.511 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.511 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 180}
+2025-01-30 20:54:20.512 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.512 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.512 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 181}
+2025-01-30 20:54:20.512 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.512 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.513 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 182}
+2025-01-30 20:54:20.513 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.513 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.513 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 183}
+2025-01-30 20:54:20.514 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.514 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.514 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 184}
+2025-01-30 20:54:20.515 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.515 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.515 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 185}
+2025-01-30 20:54:20.516 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.516 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.516 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 186}
+2025-01-30 20:54:20.517 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.517 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.518 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 187}
+2025-01-30 20:54:20.518 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.518 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.518 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 188}
+2025-01-30 20:54:20.519 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.519 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.519 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 189}
+2025-01-30 20:54:20.520 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.520 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.520 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 190}
+2025-01-30 20:54:20.520 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.521 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.521 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 191}
+2025-01-30 20:54:20.521 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.521 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.521 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 192}
+2025-01-30 20:54:20.522 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.522 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.522 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 193}
+2025-01-30 20:54:20.522 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.522 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.523 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 194}
+2025-01-30 20:54:20.523 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.523 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.523 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 195}
+2025-01-30 20:54:20.524 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.524 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.524 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 196}
+2025-01-30 20:54:20.524 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.525 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.525 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 197}
+2025-01-30 20:54:20.526 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.526 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.526 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 198}
+2025-01-30 20:54:20.526 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.527 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.527 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 199}
+2025-01-30 20:54:20.527 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.527 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.527 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 200}
+2025-01-30 20:54:20.528 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.528 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.528 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 201}
+2025-01-30 20:54:20.528 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.528 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.529 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 202}
+2025-01-30 20:54:20.529 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.529 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.530 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 203}
+2025-01-30 20:54:20.530 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.530 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.530 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 204}
+2025-01-30 20:54:20.531 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.531 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.531 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 205}
+2025-01-30 20:54:20.532 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.532 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.532 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 206}
+2025-01-30 20:54:20.533 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.533 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.533 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 207}
+2025-01-30 20:54:20.534 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.534 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.534 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 208}
+2025-01-30 20:54:20.535 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.535 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.535 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 209}
+2025-01-30 20:54:20.536 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.536 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.536 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 210}
+2025-01-30 20:54:20.536 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.537 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.537 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 211}
+2025-01-30 20:54:20.537 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.537 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.537 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 212}
+2025-01-30 20:54:20.538 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.538 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.538 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 213}
+2025-01-30 20:54:20.538 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.538 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.539 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 214}
+2025-01-30 20:54:20.539 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.539 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.539 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 215}
+2025-01-30 20:54:20.540 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.540 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.540 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 216}
+2025-01-30 20:54:20.541 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.541 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.541 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 217}
+2025-01-30 20:54:20.542 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.542 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.542 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 218}
+2025-01-30 20:54:20.542 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.543 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.543 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 219}
+2025-01-30 20:54:20.543 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.543 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.543 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 220}
+2025-01-30 20:54:20.544 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.544 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.544 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 221}
+2025-01-30 20:54:20.545 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.545 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.545 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 222}
+2025-01-30 20:54:20.546 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.546 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.546 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 223}
+2025-01-30 20:54:20.546 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.547 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.547 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 224}
+2025-01-30 20:54:20.547 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.547 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.548 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 225}
+2025-01-30 20:54:20.548 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.548 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.549 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 226}
+2025-01-30 20:54:20.549 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.550 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.550 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 227}
+2025-01-30 20:54:20.550 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.550 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.551 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 228}
+2025-01-30 20:54:20.551 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.551 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.551 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 229}
+2025-01-30 20:54:20.552 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:20.552 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.552 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 230}
+2025-01-30 20:54:20.552 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:20.552 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.552 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 231}
+2025-01-30 20:54:20.553 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:20.553 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.553 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 232}
+2025-01-30 20:54:20.554 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:20.554 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.554 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 233}
+2025-01-30 20:54:20.557 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:20.557 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.557 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 234}
+2025-01-30 20:54:20.558 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:20.558 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.559 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 235}
+2025-01-30 20:54:20.560 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:20.560 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.560 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 236}
+2025-01-30 20:54:20.561 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:20.561 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.561 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 237}
+2025-01-30 20:54:20.562 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:20.562 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.562 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 238}
+2025-01-30 20:54:20.565 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:20.565 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:20.566 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 239}
+2025-01-30 20:54:21.389 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:21.393 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:21.393 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:21.393 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 240}
+2025-01-30 20:54:22.392 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:54:22.393 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:54:22.395 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:22.402 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:22.402 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:22.402 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 241}
+2025-01-30 20:54:23.400 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:23.407 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:23.408 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:23.408 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 242}
+2025-01-30 20:54:24.405 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:24.411 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:24.411 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:24.412 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 243}
+2025-01-30 20:54:25.409 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:25.415 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:25.416 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:25.417 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 244}
+2025-01-30 20:54:26.415 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:26.422 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:26.422 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:26.423 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 245}
+2025-01-30 20:54:27.419 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:27.425 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:27.426 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:27.427 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 246}
+2025-01-30 20:54:28.423 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:28.428 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:28.428 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:28.428 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 247}
+2025-01-30 20:54:29.426 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:29.429 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:29.430 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:29.430 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 248}
+2025-01-30 20:54:30.430 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:30.436 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:30.437 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:30.438 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 249}
+2025-01-30 20:54:31.435 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:31.440 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:31.442 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:31.443 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 250}
+2025-01-30 20:54:32.437 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:54:32.437 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:54:32.440 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:32.444 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:32.444 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:32.444 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 251}
+2025-01-30 20:54:33.444 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:33.449 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:33.450 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:33.450 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 252}
+2025-01-30 20:54:34.449 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:34.455 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:34.455 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:34.456 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 253}
+2025-01-30 20:54:35.453 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:35.458 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:35.459 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:35.460 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 254}
+2025-01-30 20:54:36.456 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:36.462 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:36.463 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:36.465 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 255}
+2025-01-30 20:54:37.461 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:37.468 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:37.469 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:37.470 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 256}
+2025-01-30 20:54:38.465 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:38.468 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:38.469 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:38.469 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 257}
+2025-01-30 20:54:39.469 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:39.476 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:39.477 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:39.479 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 258}
+2025-01-30 20:54:40.474 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:40.479 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:40.479 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:40.480 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 259}
+2025-01-30 20:54:41.477 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:41.479 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:41.480 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:41.480 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 260}
+2025-01-30 20:54:42.478 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:54:42.479 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:54:42.483 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:42.487 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:42.487 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:42.487 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 261}
+2025-01-30 20:54:43.485 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:43.488 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:43.488 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:43.488 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 262}
+2025-01-30 20:54:44.486 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:44.489 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:44.489 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:44.490 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 263}
+2025-01-30 20:54:45.489 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:45.492 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:45.492 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:45.493 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 264}
+2025-01-30 20:54:46.492 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:46.499 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:46.499 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:46.500 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 265}
+2025-01-30 20:54:47.496 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:47.503 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:47.504 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:47.505 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 266}
+2025-01-30 20:54:48.500 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:48.503 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:48.504 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:48.504 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 267}
+2025-01-30 20:54:49.504 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:49.508 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:49.509 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:49.509 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 268}
+2025-01-30 20:54:50.506 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:50.511 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:54:50.512 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:50.512 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 269}
+2025-01-30 20:54:51.512 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:51.518 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:54:51.519 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:51.519 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 270}
+2025-01-30 20:54:52.515 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:54:52.517 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:54:52.519 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:52.525 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:54:52.525 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:52.526 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 271}
+2025-01-30 20:54:53.523 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:53.526 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:54:53.526 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:53.527 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 272}
+2025-01-30 20:54:54.528 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:54.534 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:54:54.535 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:54.536 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 273}
+2025-01-30 20:54:55.530 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:55.533 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:54:55.534 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:55.534 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 274}
+2025-01-30 20:54:56.535 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:56.539 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:54:56.540 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:56.541 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 275}
+2025-01-30 20:54:57.538 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:57.544 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:54:57.545 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:57.545 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 276}
+2025-01-30 20:54:58.543 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:58.547 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:54:58.548 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:58.548 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 277}
+2025-01-30 20:54:59.547 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:59.553 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:54:59.554 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:54:59.555 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 278}
+2025-01-30 20:55:00.550 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:55:00.554 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:55:00.554 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:00.554 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 279}
+2025-01-30 20:55:01.552 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:55:01.555 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:55:01.555 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:01.555 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 280}
+2025-01-30 20:55:02.554 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:55:02.555 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:55:02.557 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:55:02.562 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:55:02.563 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:02.563 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 281}
+2025-01-30 20:55:03.560 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:55:03.566 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:55:03.567 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:03.567 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 282}
+2025-01-30 20:55:04.565 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:55:04.570 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:55:04.570 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:04.571 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 283}
+2025-01-30 20:55:05.567 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:55:05.571 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:55:05.571 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:05.571 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 284}
+2025-01-30 20:55:06.572 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:55:06.577 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:55:06.578 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:06.579 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 285}
+2025-01-30 20:55:07.575 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:55:07.579 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:55:07.580 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:07.580 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 286}
+2025-01-30 20:55:08.579 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:55:08.694 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:55:08.695 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:08.696 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 287}
+2025-01-30 20:55:09.581 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:55:09.586 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:55:09.586 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:09.587 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 288}
+2025-01-30 20:55:10.584 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:55:10.587 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:55:10.588 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:10.588 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 289}
+2025-01-30 20:55:11.587 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:55:11.594 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:55:11.595 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:11.596 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 290}
+2025-01-30 20:55:12.590 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:55:12.591 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:55:12.592 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:55:12.594 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:55:12.595 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:12.595 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 291}
+2025-01-30 20:55:13.593 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:55:13.599 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:55:13.600 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:13.601 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 292}
+2025-01-30 20:55:14.596 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:55:14.604 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:55:14.605 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:14.605 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 293}
+2025-01-30 20:55:15.600 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:55:15.603 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:55:15.603 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:15.603 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 294}
+2025-01-30 20:55:16.604 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:55:16.609 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:55:16.609 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:16.610 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 295}
+2025-01-30 20:55:17.607 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:55:17.618 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:55:17.619 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:17.619 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 296}
+2025-01-30 20:55:18.610 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:55:18.613 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:55:18.613 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:18.613 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 297}
+2025-01-30 20:55:19.612 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:55:19.615 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:55:19.616 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:19.617 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 298}
+2025-01-30 20:55:20.614 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:55:20.616 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:55:20.617 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:20.617 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 299}
+2025-01-30 20:55:21.616 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:55:21.618 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:55:21.618 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:21.618 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 300}
+2025-01-30 20:55:22.617 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:55:22.618 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:55:22.621 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:55:22.624 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:55:22.625 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:22.625 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 301}
+2025-01-30 20:55:23.623 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:55:23.626 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:55:23.627 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:23.627 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 302}
+2025-01-30 20:55:24.625 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:55:24.629 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:55:24.630 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:24.630 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 303}
+2025-01-30 20:55:25.628 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:55:25.632 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:55:25.632 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:25.633 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 304}
+2025-01-30 20:55:26.632 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:55:26.639 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:55:26.639 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:26.640 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 305}
+2025-01-30 20:55:27.636 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:55:27.639 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:55:27.639 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:27.640 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 306}
+2025-01-30 20:55:28.637 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:55:28.640 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:55:28.640 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:28.641 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 307}
+2025-01-30 20:55:29.640 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:55:29.645 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:55:29.646 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:29.646 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 308}
+2025-01-30 20:55:30.644 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:55:30.646 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:55:30.647 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:30.647 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 309}
+2025-01-30 20:55:31.646 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:55:31.650 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:55:31.650 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:31.651 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 310}
+2025-01-30 20:55:32.648 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:55:32.651 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:55:32.654 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:55:32.660 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:55:32.660 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:32.660 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 311}
+2025-01-30 20:55:33.658 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:55:33.662 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:55:33.663 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:33.663 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 312}
+2025-01-30 20:55:34.660 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:55:34.663 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:55:34.663 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:34.663 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 313}
+2025-01-30 20:55:35.661 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:55:35.664 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:55:35.665 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:35.665 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 314}
+2025-01-30 20:55:36.663 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:55:36.666 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:55:36.667 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:36.667 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 315}
+2025-01-30 20:55:37.667 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:55:37.672 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:55:37.673 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:37.673 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 316}
+2025-01-30 20:55:38.671 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:55:38.676 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:55:38.677 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:38.678 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 317}
+2025-01-30 20:55:39.677 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:55:39.682 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:55:39.683 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:39.683 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 318}
+2025-01-30 20:55:40.681 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:55:40.685 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:55:40.686 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:40.686 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 319}
+2025-01-30 20:55:41.685 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:55:41.691 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:55:41.691 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:41.692 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 320}
+2025-01-30 20:55:42.688 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:55:42.689 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:55:42.691 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:55:42.694 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:55:42.695 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:42.696 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 321}
+2025-01-30 20:55:43.693 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:55:43.699 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:55:43.700 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:43.700 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 322}
+2025-01-30 20:55:44.697 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:55:44.702 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:55:44.702 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:44.703 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 323}
+2025-01-30 20:55:45.701 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:55:45.708 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:55:45.709 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:45.709 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 324}
+2025-01-30 20:55:46.704 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:55:46.707 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:55:46.707 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:46.708 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 325}
+2025-01-30 20:55:47.707 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:55:47.711 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:55:47.712 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:47.713 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 326}
+2025-01-30 20:55:48.709 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:55:48.712 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:55:48.713 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:48.713 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 327}
+2025-01-30 20:55:49.713 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:55:49.717 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:55:49.718 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:49.718 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 328}
+2025-01-30 20:55:50.716 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:55:50.721 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:55:50.721 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:50.722 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 329}
+2025-01-30 20:55:51.719 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:55:51.724 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:55:51.725 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:51.725 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 330}
+2025-01-30 20:55:52.721 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:55:52.722 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:55:52.723 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:55:52.726 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:55:52.726 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:52.726 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 331}
+2025-01-30 20:55:53.726 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:55:53.730 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:55:53.731 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:53.731 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 332}
+2025-01-30 20:55:54.727 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:55:54.730 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:55:54.730 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:54.730 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 333}
+2025-01-30 20:55:55.730 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:55:55.734 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:55:55.735 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:55.736 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 334}
+2025-01-30 20:55:56.734 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:55:56.739 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:55:56.740 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:56.740 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 335}
+2025-01-30 20:55:57.738 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:55:57.743 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1006', 'customer_name': 'Olivia Taylor', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:35:20Z'}
+2025-01-30 20:55:57.744 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:57.744 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 336}
+2025-01-30 20:55:58.744 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:55:58.751 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1007', 'customer_name': 'Noah Anderson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:40:15Z'}
+2025-01-30 20:55:58.752 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:58.752 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 337}
+2025-01-30 20:55:59.748 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:55:59.754 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1008', 'customer_name': 'Ava Martinez', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:45:50Z'}
+2025-01-30 20:55:59.755 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:55:59.756 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 338}
+2025-01-30 20:56:00.752 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:56:00.758 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1009', 'customer_name': 'William Thomas', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:50:35Z'}
+2025-01-30 20:56:00.759 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:56:00.759 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 339}
+2025-01-30 20:56:01.755 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:56:01.761 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1010', 'customer_name': 'Charlotte White', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:55:00Z'}
+2025-01-30 20:56:01.762 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:56:01.762 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 340}
+2025-01-30 20:56:02.758 | INFO     | __main__:generate_messages:83 - Opening data file in read mode: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:56:02.758 | INFO     | __main__:generate_messages:85 - Reading data from file: C:\Users\dines\Documents\Streaming_data\Module3\buzzline-03-dineshguru\data\buzz.json
+2025-01-30 20:56:02.759 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:56:02.761 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1001', 'customer_name': 'John Doe', 'order_status': 'Shipped', 'timestamp': '2024-01-30T10:15:30Z'}
+2025-01-30 20:56:02.762 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:56:02.762 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 341}
+2025-01-30 20:56:03.761 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:56:03.763 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1002', 'customer_name': 'Emma Smith', 'order_status': 'Processing', 'timestamp': '2024-01-30T10:18:45Z'}
+2025-01-30 20:56:03.763 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:56:03.763 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 342}
+2025-01-30 20:56:04.762 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:56:04.764 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1003', 'customer_name': 'Michael Johnson', 'order_status': 'Delivered', 'timestamp': '2024-01-30T10:22:10Z'}
+2025-01-30 20:56:04.766 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:56:04.767 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 343}
+2025-01-30 20:56:05.764 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:56:05.878 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1004', 'customer_name': 'Sophia Brown', 'order_status': 'Pending', 'timestamp': '2024-01-30T10:25:55Z'}
+2025-01-30 20:56:05.878 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:56:05.878 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 344}
+2025-01-30 20:56:06.770 | INFO     | __main__:main:158 - Sent message to topic 'buzzline_json': {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:56:06.775 | INFO     | __main__:process_message:74 - Processed JSON message: {'order_id': 'ORD1005', 'customer_name': 'Liam Wilson', 'order_status': 'Cancelled', 'timestamp': '2024-01-30T10:30:05Z'}
+2025-01-30 20:56:06.775 | INFO     | __main__:process_message:80 - Message received from author: unknown
+2025-01-30 20:56:06.776 | INFO     | __main__:process_message:86 - Updated author counts: {'Alice': 2, 'Diana': 2, 'unknown': 345}
