@@ -1,15 +1,3 @@
-"""
-json_producer_case.py
-
-Stream JSON data to a Kafka topic.
-
-Example JSON message
-{"message": "I love Python!", "author": "Eve"}
-
-Example serialized to Kafka message
-"{\"message\": \"I love Python!\", \"author\": \"Eve\"}"
-
-"""
 
 #####################################
 # Import Modules
