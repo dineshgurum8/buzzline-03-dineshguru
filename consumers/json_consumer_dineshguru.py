@@ -50,6 +50,15 @@ def get_kafka_consumer_group_id() -> int:
 # {author: count} author is the key and count is the value
 author_counts = defaultdict(int)
 
+# Set up a dictionary to track the time of the last message for each author
+last_message_time = defaultdict(int)
+
+# Define an alert threshold (for example, 100 messages from an author)
+MESSAGE_THRESHOLD = 100
+
+# Define a time-based alert threshold (e.g., more than 5 messages in 10 seconds)
+FREQUENT_THRESHOLD = 5
+FREQUENT_TIME_FRAME = 10  # seconds
 
 #####################################
 # Function to process a single message
